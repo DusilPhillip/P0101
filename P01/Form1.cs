@@ -24,6 +24,7 @@ namespace P01
             label1.Text = (cislo1 + cislo2).ToString();
             label2.Text = ((double)(cislo1) / cislo2).ToString();
             label3.Text = (cislo1 - cislo2).ToString();
+            label4.Text = (cislo1 * cislo2).ToString();
         }
     }
 }
